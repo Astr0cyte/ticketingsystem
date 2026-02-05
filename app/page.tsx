@@ -2,9 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello world</h1>
-      <p>This is my landing page.</p>
+    <main style={{ padding: "40px", fontFamily: "sans-serif" }}>
+      <h1 style={{ fontSize: "32px" }}>Hello world</h1>
+
+      <p style={{ fontSize: "18px", marginTop: "12px" }}>
+        This is my landing page.
+      </p>
 
       <a href="https://nextjs.org">
         Learn Next.js
